@@ -728,7 +728,11 @@ nav .container{
     /* services section */
     section.services .container{
         grid-template-columns: 1fr;
+        /* margin: auto; */
 
+    }
+    section.services{
+        margin: auto;
     }
     /* portfolio section */
     section.recent-work .container .projects{ 
